@@ -9,12 +9,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-800 text-white sticky top-0 z-50">
+    <header className="bg-slate-950 text-slate-400 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between py-4">
-        <Link to="/" className="text-xl font-bold">
+        <Link to="/" className="text-xl font-bold px-3">
           My Portfolio
         </Link>
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex space-x-6 px-3">
           <Link to="/" className="hover:text-gray-200">
             Home
           </Link>
