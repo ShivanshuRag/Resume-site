@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import Images1 from "../assets/yoga.png"; 
 import Spline from '@splinetool/react-spline';
-
+import { TypeAnimation } from 'react-type-animation'
 const Home = () => {
   return (
     <div 
@@ -36,7 +36,30 @@ const Home = () => {
           /> 
           {/* <div className="absolute inset-0 bg-gray-900 opacity-0 hover:opacity-50 rounded-full transition-opacity duration-300"></div>  */}
         </div> 
-        <h1 className="text-4xl font-bold text-slate-400 mt-8">Hello, I am Shivanshu Singh</h1> 
+        <h1 className="text-4xl font-bold text-slate-400 mt-8">
+            
+            
+
+           
+      
+    
+                <TypeAnimation
+                sequence={[
+                    // Same substring at the start will only be typed out once, initially
+                    'Hello, I am Shivanshu Singh',
+                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    'Namaste, I am Shivanshu Singh',
+                    1000,
+                    
+                ]}
+                wrapper="span"
+                speed={30}
+                style={{  display: 'inline-block', color: '#D3D3D3' , filter: "drop-shadow(0px 10px 10px rgb(0,0,0))" }}
+                repeat={Infinity}
+                className="font-effect-3d"
+                />
+       
+            </h1> 
         <p className="text-lg text-slate-400 mt-4"> 
           I am a <span className="text-teal-500 text-xl font-bold">Fullstack Developer</span> with a passion for building user-friendly and  
           visually appealing web applications. 
