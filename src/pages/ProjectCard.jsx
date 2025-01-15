@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md">
+    <div className="bg-gray-300  shadow-[0_0_10px_black] w-[22rem]  rounded-xl overflow-hidden cursor-pointer transition-transform transform hover:scale-100 hover:shadow-white hover:shadow-lg">
       <img src={project.image} alt={project.title} className="w-full" />
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">{project.title}</h2>
@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded"
+            className="bg-gray-200 hover:bg-gray-400 text-gray-700 font-bold py-2 px-4 rounded"
           >
             GitHub
           </a>
