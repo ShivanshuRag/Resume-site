@@ -3,7 +3,7 @@
 
 const About = () => {
   return (
-    <div className="container mx-auto py-16">
+    <div className="container mx-auto p-16 text-slate-300">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <p className="text-lg mb-8">
         [Write a detailed description about yourself, your skills, experience,

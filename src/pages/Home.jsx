@@ -46,9 +46,9 @@ const Home = () => {
                 <TypeAnimation
                 sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    'Hello, I am Shivanshu Singh',
+                    `Hello! I am Shivanshu Singh`,
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    'Namaste, I am Shivanshu Singh',
+                    `Namaste! I am Shivanshu Singh`,
                     1000,
                     
                 ]}
@@ -61,8 +61,8 @@ const Home = () => {
        
             </h1> 
         <p className="text-lg text-slate-400 mt-4"> 
-          I am a <span className="text-teal-500 text-xl font-bold">Fullstack Developer</span> with a passion for building user-friendly and  
-          visually appealing web applications. 
+        I’m a <span className="text-teal-500 text-xl font-bold">Fullstack Developer</span> and I’ve always been passionate about technology and education.  
+           
         </p> 
         <Link 
           to="/projects" 
