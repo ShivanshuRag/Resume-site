@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Images1 from "../assets/shivanshu1.jpg"; 
 import Spline from '@splinetool/react-spline';
 import { TypeAnimation } from 'react-type-animation'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; 
 const Home = () => {
 return (
     <div 
@@ -36,6 +37,17 @@ return (
         
         }}
       />
+        <div className="flex m-4 items-center  justify-center space-x-4"> 
+          <a href="https://github.com/ShivanshuRag" target="_blank" rel="noopener noreferrer">
+            <FaGithub className="text-gray-400 hover:text-gray-500 text-2xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/shivanshu-singh-646b91232" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className="text-gray-400 hover:text-gray-500 text-2xl" />
+          </a>
+          <a href="https://x.com/ShivanshuRag" target="_blank" rel="noopener noreferrer">
+            <FaTwitter className="text-gray-400 hover:text-gray-500 text-2xl" />
+          </a>
+        </div>
     </div> 
             <h1 className="text-4xl font-bold text-slate-400 mt-8">
                     <TypeAnimation

@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to="/" className="text-xl font-bold px-3">
           My Portfolio
         </Link>
-        <nav className="hidden md:flex space-x-6 px-3">
+        <nav className="hidden md:flex space-x-6 px-3 font-semibold">
           <Link to="/" className="hover:text-gray-200">
             Home
           </Link>
