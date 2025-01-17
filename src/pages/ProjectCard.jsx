@@ -33,7 +33,7 @@ const ProjectCard = ({ project }) => {
 };
 ProjectCard.propTypes = {
   project: PropTypes.shape({
-    image: PropTypes.string.isRequired,
+    image: PropTypes.object,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,

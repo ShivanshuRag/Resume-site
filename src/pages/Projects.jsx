@@ -1,12 +1,12 @@
 // src/pages/Projects.jsx
 // import React from 'react';
 import ProjectCard from '../pages/ProjectCard.jsx';
-// import lmsIMG from '../assets/LMS.png';
+import lmsIMG from '../assets/LMS.png';
 const projectsData = [
   {
     title: 'LMS',
     description: 'learning management system  ',
-    image: '/src/assets/LMS.png' ,
+    image: `${lmsIMG} `,
     url: 'https://fronted-lms.vercel.app',
     github: 'https://github.com/ShivanshuRag/Fronted_lms',
   },
