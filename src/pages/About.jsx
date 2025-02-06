@@ -42,8 +42,8 @@ const About = () => {
         </ul>
         <h2 className="text-2xl font-semibold mb-2 mt-4">Skills</h2>
         <ul className="list-disc ml-4">
-          <li>HTML, CSS, JavaScript, typescript, Java</li>
-          <li>React-vite, Next.js, vue.js</li>
+          <li>HTML, CSS, JavaScript, typescript, Java, Express.js, Node.js </li>
+          <li>React-vite, Next.js, vue.js </li>
           <li>Tailwind CSS, Bootstrap</li>
           <li>Git, GitHub, Linux</li>
           {/* Add more skills as needed */}
