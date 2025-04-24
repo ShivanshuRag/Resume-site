@@ -154,7 +154,7 @@ const About = () => {
               <TbSchool className="text-xl" />
               Education
             </h2>
-            <div className="bg-gray-800/50 p-4 rounded-lg border-l-4 border-blue-500">
+            <div className="bg-gray-800/50 p-4 rounded-lg border-l-4 border-teal-500">
               <p className="font-medium text-gray-100">
                 Institute of Engineering and Rural Technology (IERT)
               </p>
