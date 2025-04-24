@@ -1,6 +1,6 @@
 // src/components/ProjectCard.jsx
 // import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded"
           >
             Live
           </a>
@@ -41,4 +41,4 @@ ProjectCard.propTypes = {
   }).isRequired,
 };
 
-export default ProjectCard;  
+export default ProjectCard;
