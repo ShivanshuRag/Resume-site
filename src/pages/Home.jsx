@@ -97,7 +97,7 @@ const Home = () => {
             <p className="text-xl text-gray-300">
               I'm a{" "}
               <span className="font-bold text-teal-400">
-                Fullstack Developer
+                FullStack + AI Developer
               </span>{" "}
               passionate about building digital experiences
             </p>

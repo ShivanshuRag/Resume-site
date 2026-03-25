@@ -2,6 +2,7 @@
 // import React from 'react';
 import ProjectCard from "../pages/ProjectCard.jsx";
 import lmsIMG from "../assets/LMS.png";
+import salonimg from "../assets/salon.png"
 const projectsData = [
   {
     title: "LMS",
@@ -10,13 +11,13 @@ const projectsData = [
     url: "https://fronted-lms.vercel.app",
     github: "https://github.com/ShivanshuRag/Fronted_lms",
   },
-  // {
-  //   title: 'Project 2',
-  //   description: 'Short description of Project 2',
-  //   image: '/images/project2.jpg',
-  //   url: 'https://project2-url.com',
-  //   github: 'https://github.com/your-username/project2',
-  // },
+  {
+    title: "Salon ",
+    description: "Salon appointment booking system ",
+    image: `${salonimg} `,
+    url: "https://salon-devep.vercel.app/",
+    github: "https://github.com/ShivanshuRag/salon-development",
+  },
   // Add more projects here
 ];
 

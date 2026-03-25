@@ -12,6 +12,9 @@ import {
   FaJava,
   FaGitAlt,
   FaLinux,
+  FaDocker,
+  FaCloud,
+  FaCodeBranch,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -21,6 +24,10 @@ import {
   SiVuedotjs,
   SiTailwindcss,
   SiBootstrap,
+  SiPython,
+  SiFastapi,
+  SiDjango,
+  SiOpenai,
 } from "react-icons/si";
 import { TbSchool } from "react-icons/tb";
 import { MdSchool } from "react-icons/md";
@@ -31,22 +38,31 @@ const About = () => {
     { name: "CSS", icon: <FaCss3Alt className="text-blue-500" /> },
     { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
     { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
+    { name: "Python", icon: <SiPython className="text-blue-500" /> },
     { name: "Java", icon: <FaJava className="text-red-500" /> },
     { name: "Express.js", icon: <SiExpress className="text-gray-100" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+    { name: "FastAPI", icon: <SiFastapi className="text-teal-500" /> },
+    { name: "Django", icon: <SiDjango className="text-green-800" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
     { name: "React", icon: <FaReact className="text-blue-400" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
     { name: "Vue.js", icon: <SiVuedotjs className="text-green-300" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400" /> },
     { name: "Bootstrap", icon: <SiBootstrap className="text-purple-500" /> },
+    { name: "Docker", icon: <FaDocker className="text-blue-400" /> },
     { name: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { name: "Linux", icon: <FaLinux className="text-yellow-100" /> },
+    { name: "DevOps", icon: <FaCodeBranch className="text-blue-600" /> },
+    { name: "AI", icon: <SiOpenai className="text-green-400" /> },
+    { name: "Clouds", icon: <FaCloud className="text-sky-400" /> },
   ];
 
   const certifications = [
     "Full Stack Developer - PW (PhysicsWallah)",
     "Chai aur code - Hitesh Chaudhary",
+    "Full Stack Generative and Agentic AI with Python - Udemy"
+
   ];
 
   return (
@@ -101,9 +117,9 @@ const About = () => {
           <div className="space-y-6 text-gray-300">
             <p className="text-lg leading-relaxed">
               I am Shivanshu Singh, a passionate software developer with
-              expertise in full-stack web development. I specialize in creating
-              efficient, user-friendly applications with clean, maintainable
-              code.
+              expertise in full-stack development and Artificial Intelligence
+              (AI) . I specialize in creating efficient, user-friendly
+              applications with clean, maintainable code.
             </p>
             <p className="text-lg leading-relaxed">
               As a strong advocate for best practices, I focus on writing
